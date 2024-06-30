@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h1>Details</h1>
+<hr />
+<div class="d-flex flex-column justify-content-center">
+    @foreach (var student in Model)
+    {
+        <div class="">
+            <p>ID: @student.ID</p>
+            <p>Name: @student.Name</p>
+            <p>Age: @student.Age</p>
+            <p>Gender: @student.Gender</p>
+            <p>Address: @student.Address</p>
+        </div>
+        <div>
+        <a class="btn btn-secondary" href="@Url.Action("Index","CRUD")">Back</a>
+        <a class="btn btn-info" href="@Url.Action("Edit","CRUD",new {id = @student.ID})">Update</a>
+        <a class="btn btn-danger" href="@Url.Action("Delete","CRUD",new {id = @student.ID})">Delete</a>
+        </div>
+    }
+</div>
+

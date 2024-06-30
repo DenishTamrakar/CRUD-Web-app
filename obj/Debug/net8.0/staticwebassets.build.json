@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "tK3Oze8vzhFhfAt3S0VdmVHkCcPI2DZhJ4p6qrThedA=",
+  "Source": "WebApplication5",
+  "BasePath": "_content/WebApplication5",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication5\\wwwroot",
+      "Source": "WebApplication5",
+      "ContentRoot": "C:\\Users\\sasuk\\source\\repos\\WebApplication5\\wwwroot\\",
+      "BasePath": "_content/WebApplication5",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sasuk\\source\\repos\\WebApplication5\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "WebApplication5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sasuk\\source\\repos\\WebApplication5\\wwwroot\\",
+      "BasePath": "_content/WebApplication5",
+      "RelativePath": "bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\sasuk\\source\\repos\\WebApplication5\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "SourceId": "WebApplication5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sasuk\\source\\repos\\WebApplication5\\wwwroot\\",
+      "BasePath": "_content/WebApplication5",
+      "RelativePath": "bootstrap/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js"
+    }
+  ]
+}

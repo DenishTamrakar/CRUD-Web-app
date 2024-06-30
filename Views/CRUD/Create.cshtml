@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h1>Create a new record</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+            <form action="@Url.Action("Insert","CRUD")" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="ID" class="control-label">ID:</label>
+                    <input asp-for="ID" type="number" class="form-control" disabled />
+                    <span asp-validation-for="ID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Name:</label>
+                <input asp-for="Name" type="text" name="Name" class="form-control" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Age" class="control-label">Age:</label>
+                <input asp-for="Age" type="number" name="Age" class="form-control" required />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">Address:</label>
+                <input asp-for="Address" type="text" name="Address" class="form-control" required />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Gender" class="control-label">Gender</label>
+                    <select asp-for="Gender" type="text" name="Gender" class="form-select" >
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+                <div class="form-group m-2">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+    </div>
+</div>
+
